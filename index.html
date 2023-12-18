@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p>LOGO</p>
+           
+        </div>
+    </header>
+ 
+    <main>
+        <div class="content">
+            <div class="column">
+                <div class="row1">
+                    <div class="one">
+                        <h1>01</h1>
+                        <p>Прототип — это модель сайта или приложения. С ней заказчику проще оценить, как люди будут пользоваться продуктом. Чтобы создать прототип сайта, дизайнер отрисовывает экраны и создаёт связи между ними.
+
+                        </p>
+                    </div>
+                    <div class="two">
+                        <h1>02</h1>
+                        <p>Прототип — это модель сайта или приложения. С ней заказчику проще оценить, как люди будут пользоваться продуктом. Чтобы создать прототип сайта, дизайнер отрисовывает экраны и создаёт связи между ними.
+
+                        </p>
+                    </div>
+                </div>
+ 
+                <div class="row2">
+                    <div class="three">
+                        <h1>03</h1>
+                        <p>Прототип — это модель сайта или приложения. С ней заказчику проще оценить, как люди будут пользоваться продуктом. Чтобы создать прототип сайта, дизайнер отрисовывает экраны и создаёт связи между ними.
+
+                        </p>
+                    </div>
+                    <div class="four">
+                        <h1>04</h1>
+                        <p>Прототип — это модель сайта или приложения. С ней заказчику проще оценить, как люди будут пользоваться продуктом. Чтобы создать прототип сайта, дизайнер отрисовывает экраны и создаёт связи между ними.
+
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="row3">
+                    <div class="five">
+                        <h1>05</h1>
+                        <p>Прототип — это модель сайта или приложения. С ней заказчику проще оценить, как люди будут пользоваться продуктом. Чтобы создать прототип сайта, дизайнер отрисовывает экраны и создаёт связи между ними.
+
+                        </p>
+                    </div>
+                    <div class="six">
+                        <h1>06</h1>
+                        <p>Прототип — это модель сайта или приложения. С ней заказчику проще оценить, как люди будут пользоваться продуктом. Чтобы создать прототип сайта, дизайнер отрисовывает экраны и создаёт связи между ними.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+        <p>Sample text. Click to select the text box. Click again or double <br> click to start editing the text. <br>  Website created by Diana Kurlaeva </p>
+        </div>
+        </footer>
+    <style>
+    body {
+        background-color: rgb(119, 119, 119);
+        font-size: 1.5vw;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    
+    footer {
+        background-color: #494949;
+        width: 100%;
+    }
+    
+    h1 {
+        color: #6d9ba8;
+    }
+    
+    p {
+        color: rgb(187, 187, 187);
+        line-height: 1.5;
+        font-style: oblique;
+    }
+    
+    footer p {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-style: normal;
+    }
+    
+    a {
+        color:#6d9ba8;
+        text-decoration: none;
+    }
+    
+    
+    .logo {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    
+    .content {
+        background-color: #6d9ba8;
+        width: 100%;
+        height: 50%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .column {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .row1, .row2, .row3 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .one, .two, .three, .four, .five, .six {
+        background-color: white;
+        border-style: solid;
+        border-color: #bce7f3;
+        border-radius: 20px 0px 20px 0px;
+        border-width: 7px;
+        width: 20vw;
+        height: auto;
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-bottom: 2em;
+        margin: 1em;
+    }
+    
+    .one, .two {
+        margin-top: 4em;
+    }
+    
+    .five, .six {
+        margin-bottom: 4em;
+    }
+    
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3em;
+    }
+    @media(max-width: 700px) {
+        body {
+            font-size: 4vw;
+        }
+    
+        .row1, .row2, .row3 {
+            flex-direction: column;
+        }
+    
+        .one, .two, .three, .four, .five, .six {
+            width: 50vw;
+            margin: 0.8em;
+        }
+    
+        .one {
+            margin-top: 4em;
+        }
+        
+        .six {
+            margin-bottom: 4em;
+        }
+    }
+    @media(min-width: 701px) and (max-width: 1000px) {
+        body {
+            font-size: 1em;
+        }
+    
+        .one, .two, .three, .four, .five, .six {
+            width: 25vw;
+        }
+    }
+    
+</style>
+</body>
+</html>
